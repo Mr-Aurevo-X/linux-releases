@@ -1,23 +1,19 @@
 # linux-releases
 
-Releases **natives** publiques (tar.gz / .deb / zips) pour les apps Linux Mr-Aurevo-X.
+Releases **natives** publiques (tar.gz / .deb) pour les apps Linux Mr-Aurevo-X.
 
 **Pas de Flatpak ici.** Flatpak : https://github.com/Mr-Aurevo-X/linux-flatpak-releases
 
-## Crypto Tracker (natif)
-
-Zips glibc Ubuntu 22.04, **auto-update** au démarrage (désactivable) : tag `crypto-tracker-v1.1.1`.
+## Gest Linux Pro 1.3.6 (natif)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.1.1/CryptoTracker-Linux-Mail-20260815.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.3.6/Gest_Linux_Pro-1.3.6.tar.gz
+tar -xzf Gest_Linux_Pro-1.3.6.tar.gz
+cd Gest_Linux_Pro-1.3.6
+bash install.sh
 ```
 
-- `CryptoTracker-Linux-Mail-20260815.zip` — binaire léger
-- `CryptoTracker-Linux-Binaire-20260815.zip` — graphiques inclus
-- `CryptoTracker-Portable-Linux-20260815.zip` — `bash LANCER.sh` si crash GLIBC
+`install.sh` installe GTK4 / Libadwaita / Python depuis **vos** dépôts (apt/dnf/pacman/zypper/apk).  
+Mise à jour auto au démarrage : télécharge le nouveau tarball et relance `install.sh --skip-deps` (terminal visible).
 
-Flatpak : https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.1.0
-
-## Gest Linux Pro (natif)
-
-Voir les releases `Gest_Linux_Pro-v*` sur ce dépôt.
+Si votre distro n’a pas GTK4 → utilisez le Flatpak.
