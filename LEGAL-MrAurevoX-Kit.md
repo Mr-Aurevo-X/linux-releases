@@ -7,7 +7,7 @@ Le code source est un logiciel libre sous licence [GPL-3.0-or-later](LICENSE).
 
 ## Conditions d’utilisation (CGU)
 
-1. MrAurevoX Kit est une **boîte d’outils locale** (recherche, pipette, renommage, hash, images).
+1. MrAurevoX Kit est une **boîte d’outils locale** (recherche, pipette, renommage, hash, images/EXIF, PDF, atelier).
 2. Le logiciel est fourni « en l’état », sans garantie (GPL §15–16).
 3. Vous êtes responsable des fichiers que vous renommez, redimensionnez ou ouvrez.
 4. Usage autorisé : personnel ou professionnel sur des machines que vous contrôlez.
@@ -32,7 +32,7 @@ Source code is free software under [GPL-3.0-or-later](LICENSE).
 
 ## Terms of use
 
-1. MrAurevoX Kit is a **local toolkit** (search, color picker, rename, hash, images).
+1. MrAurevoX Kit is a **local toolkit** (search, color picker, rename, hash, images/EXIF, PDF, workshop).
 2. The software is provided “as is”, without warranty (GPL §§15–16).
 3. You are responsible for files you rename, resize, or open.
 4. Permitted use: personal or professional on machines you control.
