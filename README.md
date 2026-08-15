@@ -17,15 +17,15 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 
 ```bash
 unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.11/{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}
-unzip -o {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.11/CryptoTracker-Linux-Binaire-20260815.zip
+unzip -o CryptoTracker-Linux-Binaire-20260815.zip
 cd CryptoTracker-Linux-Binaire
 chmod +x CryptoTracker
 ./CryptoTracker
 ```
 
-- `{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}` — graphes inclus (matplotlib)
-- `{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}` — `bash LANCER.sh` si crash GLIBC
+- `CryptoTracker-Linux-Binaire-20260815.zip` — graphes inclus (matplotlib)
+- `CryptoTracker-Portable-Linux-20260815.zip` — `bash LANCER.sh` si crash GLIBC
 
 Si tu avais le zip Mail, installe Binaire par-dessus (même dossier ou nouveau) ; le portefeuille n’est pas dans le zip, il reste dans `~/.local/share/crypto-tracker/`.
 
