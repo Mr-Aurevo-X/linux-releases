@@ -14,8 +14,8 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 ## Crypto Tracker 1.2.9
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Mail-*.zip
-unzip CryptoTracker-Linux-Mail-*.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Mail-20260815.zip
+unzip CryptoTracker-Linux-Mail-20260815.zip
 ./CryptoTracker-Linux-Mail/CryptoTracker
 ```
 
@@ -45,7 +45,6 @@ bash install.sh
 ```
 
 `install.sh` installe GTK4 / Libadwaita / Python depuis **vos** dépôts (apt/dnf/pacman/zypper/apk).  
-Native min : Ubuntu 22.04 / Mint 21.3 (Python 3.10). CachyOS / Arch / Fedora : UI Adw actuelle.  
 Mise à jour auto au démarrage : nouveau tarball + `install.sh --skip-deps`.
 
 Si votre distro n’a pas GTK4 → utilisez le Flatpak.
