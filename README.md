@@ -7,14 +7,14 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.8`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.8) | zips Mail / Binaire / Portable |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.9`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.9) | zips Mail / Binaire / Portable |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.6`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.6) | `tar.gz` + `install.sh` (`.deb` optionnel) |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.2`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.2) | `tar.gz` + `install.sh` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.3`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.3) | `tar.gz` + `install.sh` |
 
-## Crypto Tracker 1.2.8
+## Crypto Tracker 1.2.9
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.8/CryptoTracker-Linux-Mail-20260815.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Mail-20260815.zip
 unzip CryptoTracker-Linux-Mail-20260815.zip
 ./CryptoTracker-Linux-Mail/CryptoTracker
 ```
@@ -31,7 +31,7 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.8/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
 ## Gest Linux Pro 1.4.6
 
@@ -56,14 +56,14 @@ Si votre distro n’a pas GTK4 → utilisez le Flatpak.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 0.2.2
+## MrAurevoX Kit 0.2.3
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.2/MrAurevoX_Kit-0.2.2.tar.gz
-tar -xzf MrAurevoX_Kit-0.2.2.tar.gz
-cd MrAurevoX_Kit-0.2.2
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.3/MrAurevoX_Kit-0.2.3.tar.gz
+tar -xzf MrAurevoX_Kit-0.2.3.tar.gz
+cd MrAurevoX_Kit-0.2.3
 bash install.sh
 ```
 
