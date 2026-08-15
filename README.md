@@ -7,7 +7,7 @@ Releases **natives** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.1.8`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.1.8) | zips Mail / Binaire / Portable |
-| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.1`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.1) | `tar.gz` + `install.sh` (`.deb` optionnel) |
+| **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.2`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.2) | `tar.gz` + `install.sh` (`.deb` optionnel) |
 
 ## Crypto Tracker 1.1.8
 
@@ -24,12 +24,12 @@ unzip CryptoTracker-Linux-Mail-20260815.zip
 Mise à jour : auto au démarrage, ou Paramètres → Vérifier les mises à jour.  
 Données : `~/.local/share/crypto-tracker/`
 
-## Gest Linux Pro 1.4.1
+## Gest Linux Pro 1.4.2
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.1/Gest_Linux_Pro-1.4.1.tar.gz
-tar -xzf Gest_Linux_Pro-1.4.1.tar.gz
-cd Gest_Linux_Pro-1.4.1
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.2/Gest_Linux_Pro-1.4.2.tar.gz
+tar -xzf Gest_Linux_Pro-1.4.2.tar.gz
+cd Gest_Linux_Pro-1.4.2
 bash install.sh
 ```
 
