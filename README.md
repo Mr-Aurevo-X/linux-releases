@@ -9,19 +9,35 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.2.9`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.9) | zips Mail / Binaire / Portable |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.8`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.8) | `tar.gz` + `install.sh` (`.deb` optionnel) |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.5`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.5) | `tar.gz` + `install.sh` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.6`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.6) | `tar.gz` + `install.sh` |
 
 ## Crypto Tracker 1.2.9
 
+**Mail** — léger, pas de graphes :
+
 ```bash
+unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
 curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Mail-20260815.zip
-unzip CryptoTracker-Linux-Mail-20260815.zip
-./CryptoTracker-Linux-Mail/CryptoTracker
+unzip -o CryptoTracker-Linux-Mail-20260815.zip
+cd CryptoTracker-Linux-Mail
+chmod +x CryptoTracker
+./CryptoTracker
 ```
 
-- `CryptoTracker-Linux-Mail-*.zip` — léger (glibc Ubuntu 22.04+)
-- `CryptoTracker-Linux-Binaire-*.zip` — graphiques inclus
-- `CryptoTracker-Portable-Linux-*.zip` — `bash LANCER.sh` si crash GLIBC
+**Binaire** — graphes inclus (matplotlib) :
+
+```bash
+unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Binaire-20260815.zip
+unzip -o CryptoTracker-Linux-Binaire-20260815.zip
+cd CryptoTracker-Linux-Binaire
+chmod +x CryptoTracker
+./CryptoTracker
+```
+
+- `CryptoTracker-Linux-Mail-20260815.zip` — léger, pas de graphes (glibc Ubuntu 22.04+)
+- `CryptoTracker-Linux-Binaire-20260815.zip` — graphes inclus (matplotlib)
+- `CryptoTracker-Portable-Linux-20260815.zip` — `bash LANCER.sh` si crash GLIBC
 
 Mise à jour : auto au démarrage, ou Paramètres → Vérifier les mises à jour.  
 Données : `~/.local/share/crypto-tracker/`
@@ -56,14 +72,14 @@ Si votre distro n’a pas GTK4 → utilisez le Flatpak.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 0.2.5
+## MrAurevoX Kit 0.2.6
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.5/MrAurevoX_Kit-0.2.5.tar.gz
-tar -xzf MrAurevoX_Kit-0.2.5.tar.gz
-cd MrAurevoX_Kit-0.2.5
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.6/MrAurevoX_Kit-0.2.6.tar.gz
+tar -xzf MrAurevoX_Kit-0.2.6.tar.gz
+cd MrAurevoX_Kit-0.2.6
 bash install.sh
 ```
 
