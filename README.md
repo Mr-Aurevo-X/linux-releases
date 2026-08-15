@@ -1,6 +1,7 @@
 # linux-releases
 
-Releases **natives** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
+Releases **natives** publiques pour **toutes** les apps Linux Mr-Aurevo-X (pas de sources).  
+Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** (ne pas retirer une app de ce README).
 
 **Pas de Flatpak ici.** → https://github.com/Mr-Aurevo-X/linux-flatpak-releases
 
@@ -12,8 +13,8 @@ Releases **natives** publiques pour les apps Linux Mr-Aurevo-X (pas de sources).
 ## Crypto Tracker 1.1.8
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.1.8/CryptoTracker-Linux-Mail-20260815.zip
-unzip CryptoTracker-Linux-Mail-20260815.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.1.8/CryptoTracker-Linux-Mail-*.zip
+unzip CryptoTracker-Linux-Mail-*.zip
 ./CryptoTracker-Linux-Mail/CryptoTracker
 ```
 
