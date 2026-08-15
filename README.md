@@ -4,12 +4,12 @@ Releases **natives** publiques (tar.gz / .deb) pour les apps Linux Mr-Aurevo-X.
 
 **Pas de Flatpak ici.** Flatpak : https://github.com/Mr-Aurevo-X/linux-flatpak-releases
 
-## Gest Linux Pro 1.4.0 (natif)
+## Gest Linux Pro 1.4.1 (natif)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.0/Gest_Linux_Pro-1.4.0.tar.gz
-tar -xzf Gest_Linux_Pro-1.4.0.tar.gz
-cd Gest_Linux_Pro-1.4.0
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.1/Gest_Linux_Pro-1.4.1.tar.gz
+tar -xzf Gest_Linux_Pro-1.4.1.tar.gz
+cd Gest_Linux_Pro-1.4.1
 bash install.sh
 ```
 
