@@ -9,7 +9,7 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 | --- | --- | --- |
 | **Crypto Tracker** | [`crypto-tracker-v1.2.9`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.9) | zips Mail / Binaire / Portable |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.8`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.8) | `tar.gz` + `install.sh` (`.deb` optionnel) |
-| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.4`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.4) | `tar.gz` + `install.sh` |
+| **MrAurevoX Kit** | [`MrAurevoX-Kit-v0.2.5`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.5) | `tar.gz` + `install.sh` |
 
 ## Crypto Tracker 1.2.9
 
@@ -38,18 +38,13 @@ Données : `~/.local/share/crypto-tracker/`
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-cd ~
-wget -O Gest_Linux_Pro-1.4.8.tar.gz \
-  https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.8/Gest_Linux_Pro-1.4.8.tar.gz
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.8/Gest_Linux_Pro-1.4.8.tar.gz
 tar -xzf Gest_Linux_Pro-1.4.8.tar.gz
 cd Gest_Linux_Pro-1.4.8
 bash install.sh
 ```
 
-Mint 21.3 : `wget` est en général déjà là. Sinon `sudo apt install wget`. Lancer `tar` depuis `~`, pas depuis un dossier déjà extrait.
-
 `install.sh` installe GTK4 / Libadwaita / Python depuis **vos** dépôts (apt/dnf/pacman/zypper/apk).  
-Native min : Ubuntu 22.04 / Mint 21.3 (Python 3.10). CachyOS / Arch / Fedora : UI Adw actuelle.  
 Mise à jour auto au démarrage : nouveau tarball + `install.sh --skip-deps`.
 
 Si votre distro n’a pas GTK4 → utilisez le Flatpak.
@@ -61,14 +56,14 @@ Si votre distro n’a pas GTK4 → utilisez le Flatpak.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.config/gest-linux-pro/`, `~/.local/share/gest-linux-pro/`. MAJ GitHub désactivable.
 - Texte complet : [`LEGAL-Gest-Linux-Pro.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Gest-Linux-Pro.md).
 
-## MrAurevoX Kit 0.2.4
+## MrAurevoX Kit 0.2.5
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.4/MrAurevoX_Kit-0.2.4.tar.gz
-tar -xzf MrAurevoX_Kit-0.2.4.tar.gz
-cd MrAurevoX_Kit-0.2.4
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/MrAurevoX-Kit-v0.2.5/MrAurevoX_Kit-0.2.5.tar.gz
+tar -xzf MrAurevoX_Kit-0.2.5.tar.gz
+cd MrAurevoX_Kit-0.2.5
 bash install.sh
 ```
 
