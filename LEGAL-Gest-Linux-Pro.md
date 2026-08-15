@@ -19,7 +19,7 @@ Mr-Aurevo-X **ne collecte aucune donnée personnelle**. Pas de compte, pas de t�
 
 - Stockage local uniquement : `~/.config/gest-linux-pro/` (préférences) et `~/.local/share/gest-linux-pro/` (cache de mises à jour, plugins).
 - Pas de traitement par l’éditeur : vous restez maître des fichiers sur votre disque (suppression = désinstallation ou effacement de ces dossiers).
-- **Exception :** si la vérification des mises à jour est activée, une requête HTTPS est envoyée à GitHub (`api.github.com`, dépôts publics `linux-releases` / `linux-flatpak-releases`). GitHub peut voir l’adresse IP et le User-Agent selon **sa** politique. Ce n’est pas un profilage par Mr-Aurevo-X. Désactivable dans Préférences.
+- **Exception :** si la vérification des mises à jour est activée, une requête HTTPS est envoyée à GitHub (`api.github.com`, dépôt public `linux-flatpak-releases`). GitHub peut voir l’adresse IP et le User-Agent selon **sa** politique. Ce n’est pas un profilage par Mr-Aurevo-X. Désactivable dans Préférences.
 - Pas de cookies, pas de sous-traitant de l’éditeur hors GitHub pour ce check.
 
 Contact : issues GitHub du projet.
@@ -45,7 +45,7 @@ Mr-Aurevo-X **collects no personal data**. No account, no telemetry, no ads, no 
 
 - Local storage only: `~/.config/gest-linux-pro/` (preferences) and `~/.local/share/gest-linux-pro/` (update cache, plugins).
 - No processing by the publisher: you control files on your disk (delete those folders or uninstall).
-- **Exception:** if update checks are enabled, an HTTPS request is sent to GitHub (`api.github.com`, public `linux-releases` / `linux-flatpak-releases`). GitHub may see your IP and User-Agent under **its** policy. This is not profiling by Mr-Aurevo-X. Can be disabled in Preferences.
+- **Exception:** if update checks are enabled, an HTTPS request is sent to GitHub (`api.github.com`, public `linux-flatpak-releases`). GitHub may see your IP and User-Agent under **its** policy. This is not profiling by Mr-Aurevo-X. Can be disabled in Preferences.
 - No cookies; no publisher processors besides GitHub for that check.
 
 Contact: project GitHub issues.
