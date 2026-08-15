@@ -7,13 +7,13 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** (ne pas retirer une app
 
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.5`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.5) | zips Mail / Binaire / Portable |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.6`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.6) | zips Mail / Binaire / Portable |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.5`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.5) | `tar.gz` + `install.sh` (`.deb` optionnel) |
 
-## Crypto Tracker 1.2.5
+## Crypto Tracker 1.2.6
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.5/CryptoTracker-Linux-Mail-20260815.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.6/CryptoTracker-Linux-Mail-20260815.zip
 unzip CryptoTracker-Linux-Mail-20260815.zip
 ./CryptoTracker-Linux-Mail/CryptoTracker
 ```
@@ -30,7 +30,7 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.5/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.6/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
 ## Gest Linux Pro 1.4.5
 
