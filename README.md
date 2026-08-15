@@ -7,13 +7,13 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** (ne pas retirer une app
 
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.2`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.2) | zips Mail / Binaire / Portable |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.3`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.3) | zips Mail / Binaire / Portable |
 | **Gest Linux Pro** | [`Gest_Linux_Pro-v1.4.3`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.3) | `tar.gz` + `install.sh` (`.deb` optionnel) |
 
-## Crypto Tracker 1.2.2
+## Crypto Tracker 1.2.3
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.2/CryptoTracker-Linux-Mail-20260815.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.3/CryptoTracker-Linux-Mail-20260815.zip
 unzip CryptoTracker-Linux-Mail-20260815.zip
 ./CryptoTracker-Linux-Mail/CryptoTracker
 ```
