@@ -13,31 +13,15 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 
 ## Crypto Tracker 1.2.9
 
-**Mail** — léger, pas de graphes :
-
 ```bash
-unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
 curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Mail-20260815.zip
-unzip -o CryptoTracker-Linux-Mail-20260815.zip
-cd CryptoTracker-Linux-Mail
-chmod +x CryptoTracker
-./CryptoTracker
+unzip CryptoTracker-Linux-Mail-20260815.zip
+./CryptoTracker-Linux-Mail/CryptoTracker
 ```
 
-**Binaire** — graphes inclus (matplotlib) :
-
-```bash
-unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.9/CryptoTracker-Linux-Binaire-20260815.zip
-unzip -o CryptoTracker-Linux-Binaire-20260815.zip
-cd CryptoTracker-Linux-Binaire
-chmod +x CryptoTracker
-./CryptoTracker
-```
-
-- `CryptoTracker-Linux-Mail-20260815.zip` — léger, pas de graphes (glibc Ubuntu 22.04+)
-- `CryptoTracker-Linux-Binaire-20260815.zip` — graphes inclus (matplotlib)
-- `CryptoTracker-Portable-Linux-20260815.zip` — `bash LANCER.sh` si crash GLIBC
+- `CryptoTracker-Linux-Mail-*.zip` — léger (glibc Ubuntu 22.04+)
+- `CryptoTracker-Linux-Binaire-*.zip` — graphiques inclus
+- `CryptoTracker-Portable-Linux-*.zip` — `bash LANCER.sh` si crash GLIBC
 
 Mise à jour : auto au démarrage, ou Paramètres → Vérifier les mises à jour.  
 Données : `~/.local/share/crypto-tracker/`
@@ -54,13 +38,18 @@ Données : `~/.local/share/crypto-tracker/`
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
 ```bash
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.8/Gest_Linux_Pro-1.4.8.tar.gz
+cd ~
+wget -O Gest_Linux_Pro-1.4.8.tar.gz \
+  https://github.com/Mr-Aurevo-X/linux-releases/releases/download/Gest_Linux_Pro-v1.4.8/Gest_Linux_Pro-1.4.8.tar.gz
 tar -xzf Gest_Linux_Pro-1.4.8.tar.gz
 cd Gest_Linux_Pro-1.4.8
 bash install.sh
 ```
 
+Mint 21.3 : `wget` est en général déjà là. Sinon `sudo apt install wget`. Lancer `tar` depuis `~`, pas depuis un dossier déjà extrait.
+
 `install.sh` installe GTK4 / Libadwaita / Python depuis **vos** dépôts (apt/dnf/pacman/zypper/apk).  
+Native min : Ubuntu 22.04 / Mint 21.3 (Python 3.10). CachyOS / Arch / Fedora : UI Adw actuelle.  
 Mise à jour auto au démarrage : nouveau tarball + `install.sh --skip-deps`.
 
 Si votre distro n’a pas GTK4 → utilisez le Flatpak.
