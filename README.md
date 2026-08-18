@@ -27,7 +27,7 @@ chmod +x CryptoTracker
 - `CryptoTracker-Linux-Binaire-20260818.zip` — graphes inclus (matplotlib)
 - `CryptoTracker-Portable-Linux-20260818.zip` — `bash LANCER.sh` si crash GLIBC
 
-Si tu avais le zip Mail, installe Binaire par-dessus ; le portefeuille reste dans `~/.local/share/crypto-tracker/`.
+Si tu avais le zip Mail, installe Binaire par-dessus (même dossier ou nouveau) ; le portefeuille n’est pas dans le zip, il reste dans `~/.local/share/crypto-tracker/`.
 
 Mise à jour : auto au démarrage, ou Paramètres → Vérifier les mises à jour.  
 Données : `~/.local/share/crypto-tracker/`
