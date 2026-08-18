@@ -7,25 +7,25 @@ Apps actuelles : **Crypto Tracker** + **Gest Linux Pro** + **MrAurevoX Kit** (ne
 
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v1.2.16`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.16) | zips Binaire / Portable |
-| **Gest Linux Pro** | [`Gest_Linux_Pro-v2.1.1`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.1.1) | **Flatpak uniquement** (plus de tar.gz ici) |
+| **Crypto Tracker** | [`crypto-tracker-v1.2.17`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | zips Binaire / Portable |
+| **Gest Linux Pro** | [`Gest_Linux_Pro-v2.2.0`](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.0) | **Flatpak uniquement** (plus de tar.gz ici) |
 | **MrAurevoX Kit** | [`MrAurevoX-Kit-v2.1.0`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v2.1.0) | `tar.gz` + `install.sh` |
 
-## Crypto Tracker 1.2.16
+## Crypto Tracker 1.2.17
 
 **Binaire** — graphes inclus (matplotlib) :
 
 ```bash
 unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.16/CryptoTracker-Linux-Binaire-20260816.zip
-unzip -o CryptoTracker-Linux-Binaire-20260816.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.17/CryptoTracker-Linux-Binaire-20260818.zip
+unzip -o CryptoTracker-Linux-Binaire-20260818.zip
 cd CryptoTracker-Linux-Binaire
 chmod +x CryptoTracker
 ./CryptoTracker
 ```
 
-- `CryptoTracker-Linux-Binaire-20260816.zip` — graphes inclus (matplotlib)
-- `CryptoTracker-Portable-Linux-20260816.zip` — `bash LANCER.sh` si crash GLIBC
+- `CryptoTracker-Linux-Binaire-20260818.zip` — graphes inclus (matplotlib)
+- `CryptoTracker-Portable-Linux-20260818.zip` — `bash LANCER.sh` si crash GLIBC
 
 Si tu avais le zip Mail, installe Binaire par-dessus ; le portefeuille reste dans `~/.local/share/crypto-tracker/`.
 
@@ -37,9 +37,9 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.16/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v1.2.17/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
-## Gest Linux Pro 2.1.1
+## Gest Linux Pro 2.2.0
 
 **© 2026 Mr-Aurevo-X** · GPL-3.0-or-later · 100 % local (sauf vérif MAJ GitHub, désactivable)
 
@@ -48,7 +48,7 @@ Données : `~/.local/share/crypto-tracker/`
 ```bash
 cd ~
 wget -O org.mraurevox.GestLinuxPro.flatpak \
-  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v2.1.1/org.mraurevox.GestLinuxPro.flatpak
+  https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/download/Gest_Linux_Pro-v2.2.0/org.mraurevox.GestLinuxPro.flatpak
 flatpak install --user -y ./org.mraurevox.GestLinuxPro.flatpak
 flatpak run org.mraurevox.GestLinuxPro
 ```
