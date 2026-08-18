@@ -17,11 +17,12 @@ Le code source est un logiciel libre sous licence [GPL-3.0-or-later](LICENSE).
 
 Mr-Aurevo-X **ne collecte aucune donnée personnelle**. Pas de compte, pas de télémétrie, pas de publicité, pas de revente.
 
-- Stockage local uniquement : `~/.config/gest-linux-pro/` (préférences) et `~/.local/share/gest-linux-pro/` (cache de mises à jour, plugins).
+- Stockage local uniquement : `~/.config/gest-linux-pro/` (préférences, `fleet.json`) et `~/.local/share/gest-linux-pro/` (cache de mises à jour, plugins).
 - Pas de traitement par l’éditeur : vous restez maître des fichiers sur votre disque (suppression = désinstallation ou effacement de ces dossiers).
 - **Exception :** si la vérification des mises à jour est activée, une requête HTTPS est envoyée à GitHub (`api.github.com`, dépôt public `linux-flatpak-releases`). GitHub peut voir l’adresse IP et le User-Agent selon **sa** politique. Ce n’est pas un profilage par Mr-Aurevo-X. Désactivable dans Préférences.
 - Pas de cookies, pas de sous-traitant de l’éditeur hors GitHub pour ce check.
 - **Connexions (page Réseau) :** lecture **locale** de la table de sockets de **cette** machine (`ss` sur l’hôte, éventuellement via pkexec pour les PIDs). Adresses IP et ports restent sur votre disque (liste « connu » dans `settings.json`). **Aucun envoi**, pas de reverse DNS, pas de réputation en ligne, pas de coupure/blocage de flux.
+- **Fiche / Parc :** inventaire local et liste de machines que **vous** saisissez (`fleet.json`). Sondes TCP/ICMP depuis cette machine uniquement. Pas de WOL, pas de mot de passe stocké, pas d’agent.
 
 Contact : issues GitHub du projet.
 
@@ -44,10 +45,11 @@ Source code is free software under [GPL-3.0-or-later](LICENSE).
 
 Mr-Aurevo-X **collects no personal data**. No account, no telemetry, no ads, no resale.
 
-- Local storage only: `~/.config/gest-linux-pro/` (preferences) and `~/.local/share/gest-linux-pro/` (update cache, plugins).
+- Local storage only: `~/.config/gest-linux-pro/` (preferences, `fleet.json`) and `~/.local/share/gest-linux-pro/` (update cache, plugins).
 - No processing by the publisher: you control files on your disk (delete those folders or uninstall).
 - **Exception:** if update checks are enabled, an HTTPS request is sent to GitHub (`api.github.com`, public `linux-flatpak-releases`). GitHub may see your IP and User-Agent under **its** policy. This is not profiling by Mr-Aurevo-X. Can be disabled in Preferences.
 - No cookies; no publisher processors besides GitHub for that check.
 - **Connections (Network page):** **local** read of **this** machine’s socket table (`ss` on the host, optionally via pkexec for PIDs). IP addresses and ports stay on your disk (“known” list in `settings.json`). **No upload**, no reverse DNS, no online reputation, no kill/block of flows.
+- **Machine sheet / Fleet:** local inventory and machines **you** type (`fleet.json`). TCP/ICMP probes from this machine only. No WOL, no stored passwords, no agent.
 
 Contact: project GitHub issues.
