@@ -30,8 +30,8 @@ Contact : Mr-Aurevo-X (canaux publics GitHub `linux-releases` / `linux-flatpak-r
 
 L’onglet **Fiscalité** demande d’abord le **pays** et l’acceptation d’un avertissement : informations **100 % locales**, **à titre indicatif**, pas un conseil fiscal.
 
-- Fichiers : `legal/FISCAL_FR.md`, `FISCAL_LU.md`, `FISCAL_MC.md`, `FISCAL_NL.md`, `FISCAL_DE.md`, `FISCAL_BE.md`.
-- **Calculs automatisés et exports** : Belgique seulement (`FISCAL_BE.md`, réforme 2026, step-up, franchise).
+- Fichiers : `legal/FISCAL_FR.md`, `FISCAL_LU.md`, `FISCAL_MC.md`, `FISCAL_NL.md`, `FISCAL_DE.md`, `FISCAL_BE.md` (cadre détaillé par pays).
+- **Calculs automatisés et exports fiscal-be** : Belgique seulement. Autres pays : synthèse, texte intégral et **dossier indicatif Markdown** exportable depuis l'onglet Fiscalité.
 
 <!-- lang:en -->
 # Legal notice — Crypto Tracker
@@ -65,5 +65,5 @@ Contact: Mr-Aurevo-X (public GitHub channels `linux-releases` / `linux-flatpak-r
 
 The **Fiscalité** tab requires choosing a **country** and accepting a disclaimer: **100 % local** information, **indicative only**, not tax advice.
 
-- Files: `legal/FISCAL_*.md` per country.
-- **Automated calculations and exports**: Belgium only (`FISCAL_BE.md`, 2026 reform, step-up, allowance).
+- Files: `legal/FISCAL_*.md` per country (detailed framework).
+- **Automated calculations and fiscal-be exports**: Belgium only. Other countries: on-screen summary, full legal text, and exportable **indicative Markdown dossier**.
