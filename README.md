@@ -16,15 +16,15 @@ Releases **natives** publiques pour **Crypto Tracker** (pas de sources).
 
 ```bash
 unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.0/CryptoTracker-Linux-Binaire-20260816.zip
-unzip -o CryptoTracker-Linux-Binaire-20260816.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.0/CryptoTracker-Linux-Binaire-20260912.zip
+unzip -o CryptoTracker-Linux-Binaire-20260912.zip
 cd CryptoTracker-Linux-Binaire
 chmod +x CryptoTracker
 ./CryptoTracker
 ```
 
-- `CryptoTracker-Linux-Binaire-20260816.zip` — graphes inclus (matplotlib)
-- `CryptoTracker-Portable-Linux-20260816.zip` — `bash LANCER.sh` si crash GLIBC
+- `CryptoTracker-Linux-Binaire-20260912.zip` — graphes inclus (matplotlib)
+- `CryptoTracker-Portable-Linux-20260912.zip` — `bash LANCER.sh` si crash GLIBC
 
 Si tu avais le zip Mail, installe Binaire par-dessus (même dossier ou nouveau) ; le portefeuille n’est pas dans le zip, il reste dans `~/.local/share/crypto-tracker/`.
 
