@@ -26,13 +26,6 @@ Mr-Aurevo-X **ne collecte aucune donnée personnelle**. Pas de compte, pas de t�
 
 Contact : Mr-Aurevo-X (canaux publics GitHub `linux-releases` / `linux-flatpak-releases`).
 
-## Fiscalité (indicatif, local)
-
-L’onglet **Fiscalité** demande d’abord le **pays** et l’acceptation d’un avertissement : informations **100 % locales**, **à titre indicatif**, pas un conseil fiscal.
-
-- Fichiers : `legal/FISCAL_FR.md`, `FISCAL_LU.md`, `FISCAL_MC.md`, `FISCAL_NL.md`, `FISCAL_DE.md`, `FISCAL_BE.md` (cadre détaillé par pays).
-- **Calculs automatisés et exports fiscal-be** : Belgique seulement. Autres pays : synthèse, texte intégral et **dossier indicatif Markdown** exportable depuis l'onglet Fiscalité.
-
 <!-- lang:en -->
 # Legal notice — Crypto Tracker
 
@@ -60,10 +53,3 @@ Mr-Aurevo-X **collects no personal data**. No account, no telemetry, no ads, no 
 - No cookies. No publisher processors besides those HTTPS calls.
 
 Contact: Mr-Aurevo-X (public GitHub channels `linux-releases` / `linux-flatpak-releases`).
-
-## Taxation (indicative, local)
-
-The **Fiscalité** tab requires choosing a **country** and accepting a disclaimer: **100 % local** information, **indicative only**, not tax advice.
-
-- Files: `legal/FISCAL_*.md` per country (detailed framework).
-- **Automated calculations and fiscal-be exports**: Belgium only. Other countries: on-screen summary, full legal text, and exportable **indicative Markdown dossier**.
