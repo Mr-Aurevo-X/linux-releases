@@ -8,23 +8,23 @@ Releases **natives** publiques pour **Crypto Tracker** (pas de sources).
 
 | App | Dernier tag | Fichiers |
 | --- | --- | --- |
-| **Crypto Tracker** | [`crypto-tracker-v2.0.1`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v2.0.1) | zips Binaire / Portable |
+| **Crypto Tracker** | [`crypto-tracker-v2.0.2`](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v2.0.2) | zips Binaire / Portable |
 
-## Crypto Tracker 2.0.1
+## Crypto Tracker 2.0.2
 
 **Binaire** — graphes inclus (matplotlib) :
 
 ```bash
 unset SSL_CERT_FILE SSL_CERT_DIR REQUESTS_CA_BUNDLE CURL_CA_BUNDLE
-curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.1/CryptoTracker-Linux-Binaire-20260912.zip
-unzip -o CryptoTracker-Linux-Binaire-20260912.zip
+curl -fL -O https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.2/CryptoTracker-Linux-Binaire-20260913.zip
+unzip -o CryptoTracker-Linux-Binaire-20260913.zip
 cd CryptoTracker-Linux-Binaire
 chmod +x CryptoTracker
 ./CryptoTracker
 ```
 
-- `CryptoTracker-Linux-Binaire-20260912.zip` — graphes inclus (matplotlib)
-- `CryptoTracker-Portable-Linux-20260912.zip` — `bash LANCER.sh` si crash GLIBC
+- `CryptoTracker-Linux-Binaire-20260913.zip` — graphes inclus (matplotlib)
+- `CryptoTracker-Portable-Linux-20260913.zip` — `bash LANCER.sh` si crash GLIBC
 
 Si tu avais le zip Mail, installe Binaire par-dessus (même dossier ou nouveau) ; le portefeuille n’est pas dans le zip, il reste dans `~/.local/share/crypto-tracker/`.
 
@@ -36,6 +36,6 @@ Données : `~/.local/share/crypto-tracker/`
 - **Copyright © 2026 Mr-Aurevo-X.** Logiciel propriétaire.
 - **CGU :** fourni « en l’état » ; pas un conseil en investissement ; pas de copie / redistribution sans autorisation.
 - **RGPD :** aucune collecte par Mr-Aurevo-X. Fichiers locaux `~/.local/share/crypto-tracker/`. Prix : CoinGecko / Binance. MAJ GitHub (désactivable).
-- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.1/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
+- Texte complet : [`LEGAL-Crypto-Tracker.md`](https://github.com/Mr-Aurevo-X/linux-releases/blob/main/LEGAL-Crypto-Tracker.md) et [`LEGAL.md`](https://github.com/Mr-Aurevo-X/linux-releases/releases/download/crypto-tracker-v2.0.2/LEGAL.md) (joint à la release). App : Paramètres → CGU / RGPD.
 
 © 2026 Mr-Aurevo-X. Crypto Tracker : propriétaire.
