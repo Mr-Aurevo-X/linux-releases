@@ -12,6 +12,10 @@ Releases **natives** publiques pour **Crypto Tracker** (pas de sources).
 
 ## Crypto Tracker 2.0.15
 
+Même **2.0.15** que le Flatpak ([linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases)) — une app, deux canaux.
+
+**2.0.x (résumé)** : portefeuille local FIFO, graphiques matplotlib, logos CoinGecko (cache `~/.local/share/crypto-tracker/icon_cache/`), molette sur les longues listes (Linux), onglet Allocation.
+
 **Binaire** — graphes inclus (matplotlib) :
 
 ```bash
